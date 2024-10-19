@@ -1,0 +1,65 @@
+[
+    {
+        "type": "input",
+        "name": "name",
+        "label": "First name",
+        "placeholder": "Bryan",
+        "value": "",
+        "validations": [
+            {
+                "type": "requerid"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "email",
+        "label": "Email",
+        "placeholder": "Correo",
+        "value": "",
+        "validations": [
+            {
+                "type": "requerid"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "password",
+        "label": "Password",
+        "placeholder": "Contraseña",
+        "value": "",
+        "validations": [
+            {
+                "type": "requerid"
+            },
+            {
+                "type": "minLength",
+                "value": 4                
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "label": "Smart Bros"
+            },
+            {
+                "id": 2,
+                "label": "Resident Evil"
+            },
+            {
+                "id": 3,
+                "label": "Metal Gear"
+            }
+        ]
+    }
+]
